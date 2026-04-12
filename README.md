@@ -36,3 +36,12 @@ Adds a task → saved in Local Storage
 Edits a task → updates Local Storage
 Deletes a task → removed from Local Storage
 Data remains even after refreshing or closing the browser
+
+▶️ How to Run the Project
+Download or clone the repository
+Open the project folder
+Double-click index.html
+
+OR
+
+Use VS Code Live Server for better experience
