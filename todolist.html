@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .completed {
+        text-decoration: line-through;
+        color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header-section">
+      <h1><i>✨A PERSONAL SCHEDULAR</i></h1>
+      <div class="theme-switcher">
+        <button id="themeToggle">
+          <span class="light-icon">🌞</span>
+          <span class="dark-icon">🌙</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="Enter a new task...">
+      <button id="addBtn">Add</button>
+    </div>
+
+    <div class="status-filters">
+      <button id="allTasks" class="filter-btn active">All</button>
+      <button id="pendingTasks" class="filter-btn">Pending</button>
+      <button id="completedTasks" class="filter-btn">Completed</button>
+    </div>
+
+    <ul id="taskList" class="task-list"></ul>
+
+    <div class="task-stats">
+      <span id="pendingCount">0 Pending</span>
+      <span id="completedCount">0 Completed</span>
+    </div>
+
+    <div class="footer">
+      <button id="clearAllBtn">🗑️ Clear All Tasks</button>
+    </div>
+
+    <div class="history-section">
+      <h2>📊 Progress History</h2>
+      <div class="history-stats">
+        <div class="stat-card">
+          <span class="stat-label">Today's Completed</span>
+          <span id="todayCompleted" class="stat-value" data-today-completed="0">0</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">This Week</span>
+          <span id="weekCompleted" class="stat-value" data-week-completed="0">0</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Total Completed</span>
+          <span id="totalCompleted" class="stat-value" data-total-completed="0">0</span>
+        </div>
+      </div>
+      <div class="history-list">
+        <h3>Recent Activity</h3>
+        <ul id="activityLog"></ul>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+  <script>
+    // Add event listener for checkbox clicks
+    document.addEventListener('DOMContentLoaded', function() {
+        const taskList = document.querySelector('.task-list'); // Add class to your task container
+        
+        taskList.addEventListener('change', function(e) {
+            if (e.target.type === 'checkbox') {
+                const taskItem = e.target.parentElement;
+                if (e.target.checked) {
+                    taskItem.classList.add('completed');
+                    updateProgressHistory(); // Update the progress counts
+                } else {
+                    taskItem.classList.remove('completed');
+                    updateProgressHistory();
+                }
+            }
+        });
+    });
+
+    // Function to update progress history
+    function updateProgressHistory() {
+        const completedToday = document.querySelectorAll('.completed').length;
+        document.querySelector('[data-today-completed]').textContent = completedToday;
+        // Update other progress counts as needed
+    }
+  </script>
+</body>
+</html>
