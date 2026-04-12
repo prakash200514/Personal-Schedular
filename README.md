@@ -14,3 +14,25 @@ It is lightweight, fast, and perfect for beginners learning JavaScript.
 🔍 Filter tasks (All / Completed / Pending)
 💾 Data saved using Local Storage (no database needed)
 ⚡ Instant updates without page reload
+
+🛠️ Technologies Used
+HTML5 – Structure
+CSS3 – Styling
+JavaScript (Vanilla JS) – Functionality
+Local Storage API – Data persistence
+
+📂 Project Structure
+personal-scheduler/
+│
+├── index.html      # Main webpage
+├── style.css       # Stylesheet
+├── script.js       # JavaScript logic
+└── README.md       # Project documentation
+
+⚙️ How It Works
+Tasks are stored in the browser using Local Storage
+When a user:
+Adds a task → saved in Local Storage
+Edits a task → updates Local Storage
+Deletes a task → removed from Local Storage
+Data remains even after refreshing or closing the browser
