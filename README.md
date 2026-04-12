@@ -45,3 +45,9 @@ Double-click index.html
 OR
 
 Use VS Code Live Server for better experience
+
+📸 Screenshots
+<img width="1920" height="1200" alt="Screenshot (888)" src="https://github.com/user-attachments/assets/0b0b5e91-19bc-4b20-8a4e-d9b14d40122e" /><img width="1920" height="1200" alt="Screenshot (889)" src="https://github.com/user-attachments/assets/f02b2ac9-706a-4416-ba13-5499b69960d8" />
+
+
+
