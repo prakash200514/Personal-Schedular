@@ -3,17 +3,17 @@
 A sleek, modern **Personal To-Do & Scheduler** web app built with pure HTML, CSS, and JavaScript. Features a beautiful glassmorphism UI, dark/light theme switching, task filtering, activity logging, and persistent local storage — no backend required.
 
 ---
-🚀 Features
+## 📋 Table of Contents
 
-✅ Add new tasks
-✏️ Edit tasks
-❌ Delete tasks
-📅 Add date & time for tasks
-✔️ Mark tasks as completed
-🔍 Filter tasks (All / Completed / Pending)
-💾 Data saved using Local Storage (no database needed)
-⚡ Instant updates without page reload
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [How to Use](#-how-to-use)
+- [Screenshots](#-screenshots)
+- [License](#-license)
 
+---
 🛠️ Technologies Used
 HTML5 – Structure
 CSS3 – Styling
