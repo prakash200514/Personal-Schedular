@@ -1,10 +1,8 @@
-Personal Scheduler To-Do List (Frontend Only)
+# ✨ Personal Scheduler — PrakashToDo
 
-📌 Project Overview
-The Personal Scheduler To-Do List is a simple web-based application that helps users organize their daily tasks efficiently. This project is built using only frontend technologies and stores data in the browser using Local Storage, so no backend or database is required.
+A sleek, modern **Personal To-Do & Scheduler** web app built with pure HTML, CSS, and JavaScript. Features a beautiful glassmorphism UI, dark/light theme switching, task filtering, activity logging, and persistent local storage — no backend required.
 
-It is lightweight, fast, and perfect for beginners learning JavaScript.
-
+---
 🚀 Features
 
 ✅ Add new tasks
