@@ -73,6 +73,16 @@ Use VS Code Live Server for better experience
 | Google Fonts | Poppins font for clean UI       |
 
 
+## 📁 Project Structure
+
+```
+PrakashToDo/
+│
+├── todolist.html    # Main application page
+├── style.css        # All styles (glassmorphism, dark/light themes, animations)
+├── script.js        # Core app logic (tasks, filters, activity log, theme toggle)
+└── README.md        # Project documentation
+```
 Contributions are welcome!
 
 Improve UI
