@@ -108,4 +108,12 @@ PrakashToDo/
 ### Switching Themes
 - Click the 🌞 / 🌙 button in the top-right corner to toggle themes
 
+## 🎨 Design Highlights
+
+- **Glassmorphism UI** — Frosted glass card with backdrop blur
+- **Gradient background** — Smooth teal-to-purple gradient
+- **Micro-animations** — Tasks fade in from below on entry, hover lifts cards
+- **Responsive** — Adapts to mobile screens (≤ 560px)
+- **Poppins Font** — Clean, modern typography via Google Fonts
+
 ---
