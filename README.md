@@ -13,12 +13,14 @@ A sleek, modern **Personal To-Do & Scheduler** web app built with pure HTML, CSS
 - [Screenshots](#-screenshots)
 - [License](#-license)
 
----
-🛠️ Technologies Used
-HTML5 – Structure
-CSS3 – Styling
-JavaScript (Vanilla JS) – Functionality
-Local Storage API – Data persistence
+## ✨ Features
+
+### ✅ Task Management
+- **Add Tasks** — Type a task and click *Add* (or press Enter)
+- **Complete Tasks** — Check the checkbox to mark a task as done
+- **Edit Tasks** — Click *Edit* to rename any existing task
+- **Delete Tasks** — Remove individual tasks with the *Delete* button
+- **Clear All** — Wipe the entire task list in one click (with confirmation)
 
 📂 Project Structure
 personal-scheduler/
