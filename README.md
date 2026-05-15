@@ -96,4 +96,18 @@ This project is free to use for learning purposes.
 
 Developed as a frontend practice project using Local Storage.
 
+## 🚀 Getting Started
+
+### No installation needed! This is a pure front-end app.
+
+**Option 1 — Open directly in browser:**
+1. Navigate to the project folder: `e:\documents\PrakashToDo\`
+2. Double-click **`todolist.html`**
+3. It opens instantly in your default browser ✅
+
+**Option 2 — Use VS Code Live Server:**
+1. Open the folder in **VS Code**
+2. Install the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+3. Right-click `todolist.html` → **"Open with Live Server"**
+4. App runs at `http://127.0.0.1:5500/todolist.html`
 
