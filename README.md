@@ -30,13 +30,10 @@ personal-scheduler/
 ├── script.js       # JavaScript logic
 └── README.md       # Project documentation
 
-⚙️ How It Works
-Tasks are stored in the browser using Local Storage
-When a user:
-Adds a task → saved in Local Storage
-Edits a task → updates Local Storage
-Deletes a task → removed from Local Storage
-Data remains even after refreshing or closing the browser
+### 🔍 Filters
+- **All** — View every task at a glance
+- **Pending** — Focus only on unfinished tasks
+- **Completed** — Review what you've already accomplished
 
 ▶️ How to Run the Project
 Download or clone the repository
