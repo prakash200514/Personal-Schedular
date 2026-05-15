@@ -58,6 +58,11 @@ Use VS Code Live Server for better experience
 - Toggle between **Light Mode** ☀️ and **Dark Mode** 🌙
 - Theme preference is saved automatically across sessions
 
+### 💾 Persistent Storage
+- All tasks and activity history are saved in the browser's **localStorage**
+- Data survives page refreshes and browser restarts — no login needed
+
+
 Contributions are welcome!
 
 Improve UI
