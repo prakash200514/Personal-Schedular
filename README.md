@@ -6,6 +6,7 @@ The Personal Scheduler To-Do List is a simple web-based application that helps u
 It is lightweight, fast, and perfect for beginners learning JavaScript.
 
 🚀 Features
+
 ✅ Add new tasks
 ✏️ Edit tasks
 ❌ Delete tasks
