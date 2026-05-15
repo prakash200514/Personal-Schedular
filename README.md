@@ -117,3 +117,8 @@ PrakashToDo/
 - **Poppins Font** — Clean, modern typography via Google Fonts
 
 ---
+## 📄 License
+
+© 2026 Prakash. All Rights Reserved.
+
+This project is a personal productivity tool. Feel free to modify it for your own use.
