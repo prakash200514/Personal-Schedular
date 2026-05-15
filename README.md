@@ -83,31 +83,29 @@ PrakashToDo/
 ├── script.js        # Core app logic (tasks, filters, activity log, theme toggle)
 └── README.md        # Project documentation
 ```
-Contributions are welcome!
+## 📖 How to Use
 
-Improve UI
-Add features
-Fix bugs
-📜 License
+### Adding a Task
+1. Click the input box at the top
+2. Type your task (e.g., *"Complete assignment"*)
+3. Click the **Add** button
 
-This project is free to use for learning purposes.
+### Completing a Task
+- Click the **checkbox** next to any task
+- The task text will be struck through and marked as completed
+- The **Progress History** counters update automatically
 
-🙌 Acknowledgement
+### Editing a Task
+- Click the **Edit** button on any task
+- A prompt will appear — type the new task name and confirm
 
-Developed as a frontend practice project using Local Storage.
+### Deleting a Task
+- Click the **Delete** button on any task to remove it instantly
 
-## 🚀 Getting Started
+### Filtering Tasks
+- Use the **All / Pending / Completed** filter buttons to switch views
 
-### No installation needed! This is a pure front-end app.
+### Switching Themes
+- Click the 🌞 / 🌙 button in the top-right corner to toggle themes
 
-**Option 1 — Open directly in browser:**
-1. Navigate to the project folder: `e:\documents\PrakashToDo\`
-2. Double-click **`todolist.html`**
-3. It opens instantly in your default browser ✅
-
-**Option 2 — Use VS Code Live Server:**
-1. Open the folder in **VS Code**
-2. Install the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-3. Right-click `todolist.html` → **"Open with Live Server"**
-4. App runs at `http://127.0.0.1:5500/todolist.html`
-
+---
