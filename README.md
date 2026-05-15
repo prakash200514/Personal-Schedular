@@ -62,6 +62,16 @@ Use VS Code Live Server for better experience
 - All tasks and activity history are saved in the browser's **localStorage**
 - Data survives page refreshes and browser restarts — no login needed
 
+## 🛠️ Tech Stack
+
+| Technology   | Purpose                         |
+|--------------|---------------------------------|
+| HTML5        | Page structure & layout         |
+| CSS3         | Glassmorphism design & theming  |
+| JavaScript   | App logic & interactivity       |
+| LocalStorage | Persistent data storage         |
+| Google Fonts | Poppins font for clean UI       |
+
 
 Contributions are welcome!
 
